@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     android:layout_height="match_parent"
+     android:layout_width="match_parent"
+     android:background="#000000">
+
+    <LinearLayout
+         android:layout_height="match_parent"
+         android:layout_width="300dp"
+         android:visibility="gone"
+         android:background="#627928"
+         android:orientation="vertical"
+         android:id="@+id/liner">
+
+        <LinearLayout
+             android:layout_height="35dp"
+             android:layout_width="match_parent"
+             android:gravity="center_vertical"
+             android:background="#555555">
+
+            <TextView
+                 android:layout_height="25dp"
+                 android:layout_width="25dp"
+                 android:layout_marginEnd="50dp"
+                 android:gravity="center"
+                 android:background="#ff0000"
+                 android:id="@+id/keluar"
+                 android:text="X" />
+
+        </LinearLayout>
+
+        <LinearLayout
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content">
+
+            <GridLayout
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:orientation="vertical"
+                 android:id="@+id/grid"
+                 android:layout_gravity="center_horizontal">
+
+            </GridLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+         android:layout_height="match_parent"
+         android:layout_width="match_parent"
+         android:orientation="vertical">
+
+        <LinearLayout
+             android:layout_height="35dp"
+             android:layout_width="match_parent"
+             android:background="#617277"
+             android:gravity="center_vertical">
+
+            <ImageView
+                 android:layout_height="25dp"
+                 android:layout_width="25dp"
+                 android:layout_marginEnd="50dp"
+                 android:id="@+id/nav" />
+
+        </LinearLayout>
+
+        <LinearLayout
+             android:layout_height="match_parent"
+             android:layout_width="match_parent"
+             android:layout_margin="10dp"
+             android:orientation="vertical">
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
